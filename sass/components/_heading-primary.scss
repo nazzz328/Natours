@@ -1,0 +1,17 @@
+.heading-primary {
+    margin-bottom: 6rem;
+
+    &--main {
+        display: block;
+        animation-name: MoveInLeft;
+        animation-duration: 800ms;
+        animation-timing-function: ease-out;
+    }
+
+    &--sub {
+        display: block;
+        animation-name: MoveInRight;
+        animation-duration: 800ms;
+        animation-timing-function: ease-out;
+    }
+}
